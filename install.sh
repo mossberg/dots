@@ -16,10 +16,13 @@ echo ">> linking!"
 
 	ln -sfv $PWD/gitconfig $HOME/.gitconfig
 
+
 	ln -sfv $PWD/fish/config.fish $HOME/.config/fish
 	ln -sfv $PWD/fish/functions/fish_prompt.fish $HOME/.config/fish/functions
 	ln -sfv $PWD/fish/functions/fish_right_prompt.fish $HOME/.config/fish/functions
 
+	ln -sfv $PWD/vimrc $HOME/.vimrc
+	touch $HOME/.vimrc.local
 
 }
 
