@@ -15,8 +15,9 @@ echo ">> linking!"
 	ln -sfv $PWD/abbr.fish $HOME/.abbr.fish
 
 	ln -sfv $PWD/gitconfig $HOME/.gitconfig
+	ln -sfv $PWD/gitignore $HOME/.gitignore
 
-
+    ln -sfv $HOME/.config/fish/config.fish ~/.fishrc
 	ln -sfv $PWD/fish/config.fish $HOME/.config/fish
 	ln -sfv $PWD/fish/functions/fish_prompt.fish $HOME/.config/fish/functions
 	ln -sfv $PWD/fish/functions/fish_right_prompt.fish $HOME/.config/fish/functions

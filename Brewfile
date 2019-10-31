@@ -22,6 +22,7 @@ cask 'dropbox'
 cask 'spectacle'
 cask '1password'
 cask 'alfred'
+cask 'the-unarchiver'
 
 # dev
 cask 'iterm2'
@@ -35,6 +36,7 @@ cask 'evernote'
 cask 'gimp'
 cask 'spotify'
 cask 'vlc'
+cask 'obs'
 
 ## music stuff
 

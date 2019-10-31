@@ -1,4 +1,5 @@
 alias xx="tmux"
+alias py="python3"
 
 ##listing files
 alias l="ls -lGH"

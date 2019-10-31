@@ -9,10 +9,9 @@ Plug 'scrooloose/nerdtree'
 
 Plug 'vim-airline/vim-airline'
 Plug 'vim-airline/vim-airline-themes'
-
-"Plug 'ervandew/supertab'
-"Plug 'ctrlpvim/ctrlp.vim'
-"Plug 'majutsushi/tagbar'
+Plug 'ctrlpvim/ctrlp.vim'
+Plug 'majutsushi/tagbar'
+Plug 'ervandew/supertab'
 
 "Bundle 'scrooloose/syntastic'
 "Bundle 'tpope/vim-dispatch'
@@ -33,6 +32,7 @@ let mapleader = "\<Space>"
 filetype off
 filetype plugin indent on
 syntax enable
+set backspace=indent,eol,start
 set shell=/bin/bash     " required when using fish
 set nocompatible
 set number
@@ -56,7 +56,7 @@ set laststatus=2
 
 set t_Co=256 " vim-airline stuff
 let g:airline_theme="solarized"
-"hi Search cterm=NONE ctermfg=white ctermbg=blue
+hi Search cterm=NONE ctermfg=white ctermbg=blue
 let NERDTreeQuitOnOpen=1
 
 
@@ -96,9 +96,9 @@ inoremap jj _
 inoremap []\ {<CR>}<Esc>ko
 
 " tagbar
-" map <leader>x :TagbarOpenAutoClose<cr>
-" map <leader>X :TagbarToggle<cr>
-" map <tab> :NERDTreeToggle<cr>
+ map <leader>x :TagbarOpenAutoClose<cr>
+ map <leader>X :TagbarToggle<cr>
+map <tab> :NERDTreeToggle<cr>
 
 " de-highlight
 map <leader>\ :noh<cr>
